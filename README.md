@@ -23,7 +23,32 @@
     - [^] : 부정 문자셋, 괄호안의 어떤문자가 아닐때
     - (?) : 찾지만 기억하지는 않음 
 
-- |   : 또는
+  2) 제한하기위해서 사용하는
+     - ? : 없거나 있거나 (zero or one)
+     - * : 없거나 있건 많거나 (zero or more)
+     - + : 하나 또는 많거나 (one or more)
+     - {n} : n번 반복
+     - {min,} : 최소
+     - {min,max} :  최소~최대
+
+  3) 경계에 대한
+     - \b : 단어경계
+     - \B : 단어경계가 아닌것
+     - ^  : 문장의 시작 ( []안에있는 [^]과 다른뜻임 )
+     - $  : 문장의 끝 
+
+  4) 특징을 이용하는 방법
+     - \ : 특수문자가 아닌 문자
+     - . : 모든 어떤글자 특문 숫자 모두 포함하나봄(예제보고수정) (줄바꿈 문자제외??? <br/>같은건가)
+     - \d : 숫자(digit)
+     - \D : 숫자가 아닌것
+     - \w : 문자(word)
+     - \W : 문자가 아닌것
+     - \s : 공백(Space)
+     - \S : 공백이 아닌것
+    
+
+     - |   : 또는
 ![image](https://github.com/Sary556/regiex/assets/141836031/b93a577b-0ff9-41a0-b9cd-ab84cd5fd0be)
 
 
@@ -64,5 +89,14 @@
 
 # gr로시작하고 []A~G(ABCDEFG)사이의 글자를 하나라도 포함되고 y로 끝나면 찾음
 ![image](https://github.com/Sary556/regiex/assets/141836031/0ecae517-4a22-40cc-b934-193a1f9a1674)
+
+# a 부터 z까지 A부터 Z까지 0부터 9까지 하나라도 만족하면 모두찾음
+![image](https://github.com/Sary556/regiex/assets/141836031/f4737460-d88a-4ab7-a84b-af3c63ededd7)
+
+# ^ 부정을 붙혀서 그외 특수문자가 해당되는것을 찾음
+    - [^] : 부정 문자셋, 괄호안의 어떤문자가 아닐때
+
+![image](https://github.com/Sary556/regiex/assets/141836031/1c9e8b6e-cec2-48c2-b181-9f6ef8df9187)
+![image](https://github.com/Sary556/regiex/assets/141836031/ce489866-cc49-47d3-8d60-3e90bebc7a5e)
 
 
