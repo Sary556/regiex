@@ -24,20 +24,25 @@
     - (?) : 찾지만 기억하지는 않음 
 
   2) 제한하기위해서 사용하는
-     - ? : 없거나 있거나 (zero or one)
-     - * : 없거나 있건 많거나 (zero or more)
+     ```
+     - ? : 있거나 없거나 (zero or one)
+     - * : 있거나 없거나 많거나 (zero or more)
      - + : 하나 또는 많거나 (one or more)
      - {n} : n번 반복
      - {min,} : 최소
      - {min,max} :  최소~최대
+     ```
 
-  3) 경계에 대한
+  4) 경계에 대한
+     ```
      - \b : 단어경계
      - \B : 단어경계가 아닌것
      - ^  : 문장의 시작 ( []안에있는 [^]과 다른뜻임 )
-     - $  : 문장의 끝 
+     - $  : 문장의 끝
+     ```
 
-  4) 특징을 이용하는 방법
+  6) 특징을 이용하는 방법
+     ```
      - \ : 특수문자가 아닌 문자
      - . : 모든 어떤글자 특문 숫자 모두 포함하나봄(예제보고수정) (줄바꿈 문자제외??? <br/>같은건가)
      - \d : 숫자(digit)
@@ -46,9 +51,9 @@
      - \W : 문자가 아닌것
      - \s : 공백(Space)
      - \S : 공백이 아닌것
-    
+    ```
 
-     - |   : 또는
+    - |   : 또는 
 ![image](https://github.com/Sary556/regiex/assets/141836031/b93a577b-0ff9-41a0-b9cd-ab84cd5fd0be)
 
 
@@ -97,6 +102,61 @@
     - [^] : 부정 문자셋, 괄호안의 어떤문자가 아닐때
 
 ![image](https://github.com/Sary556/regiex/assets/141836031/1c9e8b6e-cec2-48c2-b181-9f6ef8df9187)
+
 ![image](https://github.com/Sary556/regiex/assets/141836031/ce489866-cc49-47d3-8d60-3e90bebc7a5e)
 
+
+
+
+# - ? : 있거나 없거나 (zero or one)
+
+
+![image](https://github.com/Sary556/regiex/assets/141836031/a246726a-d4c0-4779-b501-970cce844134)
+
+# - * : 있거나 없거나 많거나 (zero or more)
+
+
+![image](https://github.com/Sary556/regiex/assets/141836031/228953bb-56c1-484b-94e8-57e61882835e)
+
+
+# - + : 하나 또는 많거나 (one or more)
+
+
+![image](https://github.com/Sary556/regiex/assets/141836031/0bb9b982-29c8-4ac6-9a92-794d677f029a)
+
+
+# - {n} : n번 반복
+
+![image](https://github.com/Sary556/regiex/assets/141836031/29a300b1-320f-45c8-b60d-203b656b9fbe)
+
+![image](https://github.com/Sary556/regiex/assets/141836031/818d01ba-3df5-4192-b4ec-706a95f41e44)
+
+![image](https://github.com/Sary556/regiex/assets/141836031/77197694-c5c0-4a86-9b71-25baed077ddf)
+
+
+
+# - {min,} : 최소
+최소를 모두 포함중
+
+![image](https://github.com/Sary556/regiex/assets/141836031/6d6a4884-dad6-4cd0-b345-2e0e1b743479)
+
+
+# - {min,max} :  최소~최대
+마지막 graaaaa는 {2,4}의 4의 걸려서 5개가있기때문에 제한 
+
+![image](https://github.com/Sary556/regiex/assets/141836031/61a24f98-fdf1-4a8c-8479-c9acaff4f681)
+
+
+
+
+     - ? : 있거나 없거나 (zero or one)
+     - * : 있거나 없거나 많거나 (zero or more)
+     - + : 하나 또는 많거나 (one or more)
+     - {n} : n번 반복
+     - {min,} : 최소
+     - {min,max} :  최소~최대
+
+
+
+     
 
