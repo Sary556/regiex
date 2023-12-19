@@ -149,14 +149,5 @@
 
 
 
-     - ? : 있거나 없거나 (zero or one)
-     - * : 있거나 없거나 많거나 (zero or more)
-     - + : 하나 또는 많거나 (one or more)
-     - {n} : n번 반복
-     - {min,} : 최소
-     - {min,max} :  최소~최대
-
-
-
      
 
