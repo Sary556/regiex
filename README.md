@@ -33,7 +33,7 @@
      - {min,max} :  최소~최대
      ```
 
-  4) 경계에 대한
+  3) 경계에 대한
      ```
      - \b : 단어경계
      - \B : 단어경계가 아닌것
@@ -41,7 +41,7 @@
      - $  : 문장의 끝
      ```
 
-  6) 특징을 이용하는 방법
+  4) 특징을 이용하는 방법
      ```
      - \ : 특수문자가 아닌 문자
      - . : 모든 어떤글자 특문 숫자 모두 포함하나봄(예제보고수정) (줄바꿈 문자제외??? <br/>같은건가)
@@ -146,8 +146,51 @@
 
 ![image](https://github.com/Sary556/regiex/assets/141836031/61a24f98-fdf1-4a8c-8479-c9acaff4f681)
 
+# - ^  : 문장의 시작 ( []안에있는 [^]과 다른뜻임 )
+맨처음 시작하는 Ya를찾았음
+
+![image](https://github.com/Sary556/regiex/assets/141836031/77ef3dcb-91b6-4f91-9e39-3837e8f0dfcd)
 
 
 
-     
+ # - . : 모든 어떤글자 특문 숫자 모두 포함하나봄(예제보고수정) (줄바꿈 문자제외??? <br/>같은건가)
+스페이스 특수문자포함 모든문자,숫자를 찾은모습
+
+![image](https://github.com/Sary556/regiex/assets/141836031/f637e69e-def9-461b-9a6d-e90c5c6e37d3)
+
+# - \ : 내가찾을려는특수문자 --> /\./ --> 특사문자 .을 찾고자할때 사용하여 .을찾으면 모든문자를찾기때문에 .이라는문자자체를 찾기위해 \를달아 .을찾았다
+
+![image](https://github.com/Sary556/regiex/assets/141836031/0a973d39-ed20-416f-9366-0a715870e452)
+
+# {} []를 찾기위해 \를 사용한모습
+
+![image](https://github.com/Sary556/regiex/assets/141836031/e7aa2692-02a8-4c40-94fe-fc1a6a597650)
+
+# - \d : 숫자(digit)
+
+![image](https://github.com/Sary556/regiex/assets/141836031/656856cf-413f-425f-adcd-3ac8a059ba9a)
+
+# - \D : 숫자가 아닌것
+
+![image](https://github.com/Sary556/regiex/assets/141836031/5d6e6233-7ae2-468d-8e52-8d52baf21372)
+
+# - \w : 문자(word) 문자와 숫자 모두 포함 특수문자 뛰어쓰기같은건 선택이안된모습
+
+![image](https://github.com/Sary556/regiex/assets/141836031/8ad42870-fb96-43cd-9dab-6fc57d9657f9)
+
+![image](https://github.com/Sary556/regiex/assets/141836031/44b58b79-e43a-4c84-a043-baa761eefdd6)
+
+# - \W : 문자가 아닌것 뛰어쓰기와 모든 특수문자를 찾은모습
+
+![image](https://github.com/Sary556/regiex/assets/141836031/58eebdd2-726c-424b-a394-a2e6e895765b)
+
+![image](https://github.com/Sary556/regiex/assets/141836031/c86a4510-8917-4041-b0d7-d33e8f7a99e0)
+
+# - \s : 공백(Space) 뛰어쓰기만 찾은모습
+
+![image](https://github.com/Sary556/regiex/assets/141836031/289726c4-448a-457c-9865-063ffa634cbe)
+
+![image](https://github.com/Sary556/regiex/assets/141836031/00034010-5d51-4e8d-b05f-bbcecf718ff9)
+
+
 
