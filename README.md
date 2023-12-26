@@ -1,4 +1,4 @@
-# 정규표현식
+![image](https://github.com/Sary556/regiex/assets/141836031/72974b1e-5f46-47bf-8262-95708abd4b77)# 정규표현식
 # /Regiex/ == > ReGular expression의 약자
 
 # 언제 사용하는가?
@@ -14,7 +14,7 @@
 
 
 
- #문법
+ # 문법
   1) Groubs anf ranges
 
     - |   : 또는
@@ -88,7 +88,18 @@
 
 
 
-- [aed] --> 대괄호 안에 있는 글자르 하나라도 만족하는것을 찾음
+# [aed] --> 대괄호 안에 있는 글자르 하나라도 만족하는것을 찾음
+
+
+- ![image](https://github.com/Sary556/regiex/assets/141836031/0d9f5f52-cc16-44a7-9d1e-4075d0e80f17)
+
+
+- ![image](https://github.com/Sary556/regiex/assets/141836031/5e7f09a7-74b3-41d2-b1c8-f02a0cb403c3)
+
+
+
+
+
 - []  : 문자셋, 괄호안의 어떤 문자든
 ![image](https://github.com/Sary556/regiex/assets/141836031/2647e1d3-0fd0-47fa-8979-7c80c77dcd9e)
 
@@ -146,10 +157,34 @@
 
 ![image](https://github.com/Sary556/regiex/assets/141836031/61a24f98-fdf1-4a8c-8479-c9acaff4f681)
 
+# \b : 단어경계 --> /\bYa/ --> Ya인데 단어중에서 Ya로 시작하는 Ya를 찾는다
+
+
+![image](https://github.com/Sary556/regiex/assets/141836031/51f7bfa6-ae9e-4dcc-bf7e-a23f09bb6adb)
+
+# \b : 단어경계 --> /Ya\b/ --> 단어중에서 Ya로 끝나는것
+
+![image](https://github.com/Sary556/regiex/assets/141836031/1d35c97b-ff47-4604-ab83-60494ebfde4a)
+
+# \B : 단어경계가 아님 --> /Ya\B/ --> 단어중에서 Ya로 끝나지 않는 Ya
+
+
+![image](https://github.com/Sary556/regiex/assets/141836031/c6ce4d4d-094d-4b6a-a06c-68e42a7cad8d)
+
+
 # - ^  : 문장의 시작 ( []안에있는 [^]과 다른뜻임 )
+
 맨처음 시작하는 Ya를찾았음
 
 ![image](https://github.com/Sary556/regiex/assets/141836031/77ef3dcb-91b6-4f91-9e39-3837e8f0dfcd)
+
+# $ : 문장의 끝 --> /Ya$/ --> 문장의 끝인 Ya
+
+
+![image](https://github.com/Sary556/regiex/assets/141836031/d3893b7e-3a85-447c-aaa5-643652f01bd3)
+
+# . : 어떤 글자(줄바꿈 문자 제외)
+
 
 
 
@@ -192,5 +227,11 @@
 
 ![image](https://github.com/Sary556/regiex/assets/141836031/00034010-5d51-4e8d-b05f-bbcecf718ff9)
 
+-----------
 
+
+\b : 단어경계
+\B : 단어경계가 아님
+^ : 문장의 시작
+$ : 문장의 끝
 
